@@ -4,7 +4,7 @@
 # rjwsacruncher
 
 [![R-CMD-check](https://github.com/AQLT/rjwsacruncher/workflows/R-CMD-check/badge.svg)](https://github.com/AQLT/rjwsacruncher/actions)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
 [![CRAN last
 release](http://www.r-pkg.org/badges/last-release/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
 [![CRAN monthly
@@ -59,8 +59,8 @@ under `D:/jdemetra-cli-2.2.3/`:
 options(cruncher_bin_directory = "D:/jdemetra-cli-2.2.3/bin/")
 ```
 
-The export items can be changed with the function
-“default\_matrix\_item” and “default\_tsmatrix\_series”:
+The export items can be changed with the function “default_matrix_item”
+and “default_tsmatrix_series”:
 
 ``` r
 # To get the default values:

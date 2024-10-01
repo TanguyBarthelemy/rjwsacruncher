@@ -1,24 +1,31 @@
 Package: rjwsacruncher
 Title: Interface to the 'JWSACruncher' of 'JDemetra+'
 Version: 0.2.1
-Authors@R: c(person("Alain", "Quartier-la-Tente", role = c("aut", "cre"),
-                 email = "alain.quartier@yahoo.fr",
-                 comment = c(ORCID = "0000-0001-7890-3857")),
-  person(given = "Institut national de la statistique et des études économiques",
-         role = "cph"))
-Description: 'JDemetra+' (<https://github.com/jdemetra/jdemetra-app>) is the seasonal adjustment software officially recommended
-  to the members of the European Statistical System and the European System of Central Banks. Seasonal adjustment models performed
-  with 'JDemetra+' can be stored into workspaces. 'JWSACruncher' (<https://github.com/jdemetra/jwsacruncher/releases>) is a console tool that 
-  re-estimates all the multi-processing defined in a workspace and to export the result. 'rjwsacruncher' allows to launch easily the 'JWSACruncher'.
+Authors@R: c(
+    person("Alain", "Quartier-la-Tente", , "alain.quartier@yahoo.fr", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7890-3857")),
+    person("Institut national de la statistique et des études économiques", role = "cph")
+  )
+Description: 'JDemetra+' (<https://github.com/jdemetra/jdemetra-app>) is
+    the seasonal adjustment software officially recommended to the members
+    of the European Statistical System and the European System of Central
+    Banks. Seasonal adjustment models performed with 'JDemetra+' can be
+    stored into workspaces. 'JWSACruncher'
+    (<https://github.com/jdemetra/jwsacruncher/releases>) is a console
+    tool that re-estimates all the multi-processing defined in a workspace
+    and to export the result. 'rjwsacruncher' allows to launch easily the
+    'JWSACruncher'.
+License: GPL-3
 URL: https://github.com/AQLT/rjwsacruncher
 BugReports: https://github.com/AQLT/rjwsacruncher/issues
 Imports:
+    utils,
     XML
 Suggests:
     knitr,
     rmarkdown
-License: GPL-3
-VignetteBuilder: knitr
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
-RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

@@ -53,7 +53,7 @@ download_cruncher <- function(directory, cruncher_version, v3 = getOption("is_cr
                              cruncher_version)
     }
   }
- 
+
   tryCatch(release_url <- readLines(url_release,
                                     warn = FALSE),
            error = function(e){

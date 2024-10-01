@@ -82,5 +82,5 @@
   
   if(is.null(getOption("is_cruncher_v3")))
     options(is_cruncher_v3 = FALSE)
-  
+
 }

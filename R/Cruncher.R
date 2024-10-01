@@ -22,7 +22,7 @@
 #' cruncher("workspace.xml",
 #'           param_file_path = file.path(dir, "parameters.param"))
 #' }
-#' 
+#'
 #' @export
 cruncher <- function(workspace,
                      cruncher_bin_directory = getOption("cruncher_bin_directory"),
