@@ -4,13 +4,17 @@
 # rjwsacruncher
 
 [![R-CMD-check](https://github.com/AQLT/rjwsacruncher/workflows/R-CMD-check/badge.svg)](https://github.com/AQLT/rjwsacruncher/actions)
+<<<<<<< HEAD
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
+=======
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
+>>>>>>> de8ea529c3736631b4501d555c945280246864eb
 [![CRAN last
-release](http://www.r-pkg.org/badges/last-release/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
+release](https://www.r-pkg.org/badges/last-release/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
 [![CRAN monthly
-downloads](http://cranlogs.r-pkg.org/badges/rjwsacruncher?color=lightgrey)](https://cran.r-project.org/package=rjwsacruncher)
+downloads](https://cranlogs.r-pkg.org/badges/rjwsacruncher?color=lightgrey)](https://cran.r-project.org/package=rjwsacruncher)
 [![CRAN
-downloads](http://cranlogs.r-pkg.org/badges/grand-total/rjwsacruncher?color=lightgrey)](https://cran.r-project.org/package=rjwsacruncher)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/rjwsacruncher?color=lightgrey)](https://cran.r-project.org/package=rjwsacruncher)
 
 The goal of rjwsacruncher is to launch quickly and easily the
 [JWSACruncher](https://github.com/jdemetra/jwsacruncher) of
@@ -67,8 +71,14 @@ and “default_tsmatrix_series”:
 head(getOption("default_matrix_item"))
 #> [1] "period"       "span.start"   "span.end"     "span.n"       "span.missing"
 #> [6] "espan.start"
+```
+
+``` r
 getOption("default_tsmatrix_series")
 #> [1] "y"    "t"    "sa"   "s"    "i"    "ycal"
+```
+
+``` r
 # To only export the seasonally adjusted series and its forecasts:
 options(default_tsmatrix_series = c("sa", "sa_f"))
 ```
