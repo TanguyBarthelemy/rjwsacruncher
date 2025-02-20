@@ -4,11 +4,7 @@
 # rjwsacruncher
 
 [![R-CMD-check](https://github.com/AQLT/rjwsacruncher/workflows/R-CMD-check/badge.svg)](https://github.com/AQLT/rjwsacruncher/actions)
-<<<<<<< HEAD
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
-=======
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
->>>>>>> de8ea529c3736631b4501d555c945280246864eb
 [![CRAN last
 release](https://www.r-pkg.org/badges/last-release/rjwsacruncher)](https://cran.r-project.org/package=rjwsacruncher)
 [![CRAN monthly
