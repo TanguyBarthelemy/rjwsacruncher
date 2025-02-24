@@ -83,7 +83,7 @@ Description = c(
 "The ARIMA model and regression parameters, except from outliers) are not re-identified. All parameters of the RegARIMA model are re-estimated. All outliers are re-identified. The transformation type remains unchanged.", 
 "Re-identification of the ARIMA model, outliers and regression variables, except from the calendar variables. The transformation type remains unchanged.", 
 "Re-identification of the whole RegARIMA model."), 
-check.names = FALSE
+check.names = FALSE, stringsAsFactors = FALSE
 )
 
 refresh_policy[-c(1, nrow(refresh_policy)), 1] <-  paste("Partial concurrent adjustment ->", refresh_policy[-c(1, nrow(refresh_policy)), 1])
