@@ -1,38 +1,38 @@
 # rjwsacruncher 0.2.3
 
-- add new parameter `standalone` to `download_cruncher()`.
+* add new parameter `standalone` to `download_cruncher()`.
 
-- A startup message is added indicating which version of the JWSACruncher is used by default (defined by the option `"is_cruncher_v3"`).
+* A startup message is added indicating which version of the JWSACruncher is used by default (defined by the option `"is_cruncher_v3"`).
 
-- new function `download_jdemetra()` to download the JDemetra+ software.
+* new function `download_jdemetra()` to download the JDemetra+ software.
 
-- improve `cruncher()` function to handle the case when the `cruncher_bin_directory` parameter provided correspond to the path to the JWSACruncher instead of the bin directory.
+* improve `cruncher()` function to handle the case when the `cruncher_bin_directory` parameter provided correspond to the path to the JWSACruncher instead of the bin directory.
 
-- improve error message of of `create_param_file()` when the `dir_file_param` parameter doesn't correspond to an existing directory.
+* improve error message of of `create_param_file()` when the `dir_file_param` parameter doesn't correspond to an existing directory.
 
 # rjwsacruncher 0.2.2
 
-- add new parameter `short_column_headers` to `create_param_file()`.
+* add new parameter `short_column_headers` to `create_param_file()`.
 
-- correction of `default_param_file()` when `cruncher_bin_directory` is defined.
+* correction of `default_param_file()` when `cruncher_bin_directory` is defined.
 
-- correction of `read_param_file()` which where converting `full_series_name` parameter to `FALSE`.
+* correction of `read_param_file()` which where converting `full_series_name` parameter to `FALSE`.
 
-- if the default parameter file of the 'JWSACruncher' already exists, `default_param_file()` do not erase and delete it when `cruncher_bin_directory` is defined.
+* if the default parameter file of the 'JWSACruncher' already exists, `default_param_file()` do not erase and delete it when `cruncher_bin_directory` is defined.
 
 # rjwsacruncher 0.2.1
 
-- parameters `rename_multi_documents` and `renaming_existing_files` added in `cruncher()` function.
+* parameters `rename_multi_documents` and `renaming_existing_files` added in `cruncher()` function.
 
-- parameter `cruncher_bin_directory` added in `default_parameter_file()` to get the default parameter from a local installation of the JWSACruncher.
+* parameter `cruncher_bin_directory` added in `default_parameter_file()` to get the default parameter from a local installation of the JWSACruncher.
 
-- parameter `file_param` added in `create_param_file()` and `list2param_file()` to be able to change the name of the parameter file.
+* parameter `file_param` added in `create_param_file()` and `list2param_file()` to be able to change the name of the parameter file.
 
-- documentation update to add new policies.
+* documentation update to add new policies.
 
 # rjwsacruncher 0.2.0
 
-- correction in export of the log file when relative path are given.
+* correction in export of the log file when relative path are given.
 
 - `cruncher_and_param()` correction in linux when `rename_multi_documents = TRUE`.
 
