@@ -62,7 +62,17 @@ create_param_file <- function(
     ){
   if (missing(dir_file_param) && missing(file_param))
     stop("The parameter dir_file_param is missing")
+<<<<<<< HEAD
 
+=======
+  if (!dir.exists(dir_file_param)) {
+    stop(sprintf(
+      "The directory '%s' doesn't exist.",
+      dir_file_param
+      ))
+  }
+
+>>>>>>> ae1033de37a3539380a8df0753878a13c3156fea
   first_line <- "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>"
   param_line <- paste("<wsaConfig bundle=", bundle, " csvlayout=", csv_layout, " csvseparator=",
                       csv_separator, " ndecs=",ndecs, sep = "\"")
@@ -238,9 +248,15 @@ list2param_file <- function(dir_file_param, x,
 }
 
 #' Get default parameters of the 'JWSACruncher'
+<<<<<<< HEAD
 #'
 #' @param v3 Boolean indicating if the parameters are the from a version 3.0.0 and higher of 'JWSACRuncher' (\code{v3 = TRUE}) or a lower version (\code{v3 = FALSE}). By default
 #' the value of the option \code{"is_cruncher_v3"} is used (equals to \code{FALSE} by default).
+=======
+#'
+#' @param v3 Boolean indicating if the parameters are the from a version 3.0.0 and higher of 'JWSACRuncher' (\code{v3 = TRUE}) or a lower version (\code{v3 = FALSE}). By default
+#' the value of the option \code{"is_cruncher_v3"} is used.
+>>>>>>> ae1033de37a3539380a8df0753878a13c3156fea
 #' @param cruncher_bin_directory Path to the directory that contains the 'JWSACruncher' binary.
 #' If defined, the parameter `v3` is ignored and the 'JWSACruncher' is run without  parameter to generate the default parameters file.
 #' @seealso [create_param_file()], [read_param_file()], [list2param_file()], [cruncher_and_param()].
